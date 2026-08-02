@@ -1,9 +1,18 @@
- { box-sizing: border-box; }
+@font-face {
+  font-family: 'Google Sans';
+  src: url('GoogleSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { 
+  box-sizing: border-box; 
+}
 
 body {
   margin: 0;
   background: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: 'Google Sans', Arial, sans-serif;
 }
 
 .cube-container {
@@ -11,7 +20,7 @@ body {
   flex-direction: row-reverse;
   gap: 40px;
   justify-content: center;
-  padding: 0;
+  padding: 40px 0;
 }
 
 .cube {
@@ -23,9 +32,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
-  background: #e74c3c;
 }
+
 .cube--red { background: #e74c3c; }
 .cube--blue { background: #3498db; }
 .cube--green { background: #2ecc71; }
