@@ -1,85 +1,158 @@
-@font-face {
-  font-family: 'Google Sans';
-  src: url('GoogleSans-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+:root {
+    --color-base: #000000;
+    --color-level1: #181823;
+    --color-primary: #5221E6;
+    --color-text: #FFFFFF;
+    --color-text-dim: #888888;
+    --color-accent-pink: #E95D90;
+    --color-accent-green: #3CC74E;
+
+    --font-main: 'Inter', sans-serif;
 }
 
-* { 
-  box-sizing: border-box; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  background: #f2f2f2;
-  font-family: 'Google Sans', Arial, sans-serif;
+    background-color: var(--color-base);
+    color: var(--color-text);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-.cube-container {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  justify-content: center;
-  padding: 40px 0;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
-.cube {
-  width: 300px;
-  height: 240px;
-  padding: 24px;
-  border-radius: 16px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+img {
+    max-width: 100%;
+    display: block;
 }
 
-.cube--red { background: #e74c3c; }
-.cube--blue { background: #3498db; }
-.cube--green { background: #2ecc71; }
-
-.cube__inner {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
+/* 2. REUSABLE COMPONENTS */.section-title {
+    font-size: 55px; /* Heading 2 */
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
-.cube__title {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 700;
+.section-title-light {
+    font-size: 55px;
+    margin-bottom: 20px;
 }
 
-.cube__desc {
-  margin: 0;
-  font-size: 12px;
+.btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-@media (min-width: 520px) and (max-width: 767px) {
-  .cube-container {
-    flex-direction: column;
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+.text-dim {
+    color: var(--color-text-dim);
+}
+
+/* 3. HEADER */.header {
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
 }
 
-@media (max-width: 519px) {
-  .cube-container {
-    flex-direction: column;
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
     align-items: center;
-  }
-
-  .cube--hide-mobile {
-    display: none;
-  }
 }
 
-@media (min-width: 768px) {
-  .cube-container {
-    flex-direction: row;
-  }
+.nav-list a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
 }
+
+.nav-list a:hover {
+    color: var(--color-primary);
+}
+
+.btn-nav {
+    background: var(--color-primary);
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+/* 4. HERO SECTION */.hero {
+    padding: 100px 0;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 78px; /* Heading 1 */
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: var(--color-text-dim);
+    max-width: 500px;
+}
+
+.hero-image img {
+    border-radius: 24px;
+}
+
+/* 5. COMPANIES SECTION */.companies {
+    background-color: var(--color-level1);
+    padding: 100px 0;
+}
+
+.companies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.company-card {
+    padding: 20px;
+}
+
+.company-num {

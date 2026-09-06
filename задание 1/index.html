@@ -1,32 +1,78 @@
-<!DOCTYPE html>
-<html
-<head>
-  <meta charset="UTF-8" />
-  <title>Три компонента</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="cube-container">
-    <div class="cube cube--green">
-      <div class="cube__inner">
-        <h3 class="cube__title">Элемент-1</h3>
-        <p class="cube__desc">пример текста для задания</p>
-      </div>
-    </div>
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin Williams | Product Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></head><body>
 
-    <div class="cube cube--blue">
-      <div class="cube__inner">
-        <h3 class="cube__title">Элемент-2</h3>
-        <p class="cube__desc">пример текста для задания</p>
-      </div>
-    </div>
+    <!-- HEADER / NAVIGATION -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">Robin.W</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#contact" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="cube cube--red cube--hide-mobile">
-      <div class="cube__inner">
-        <h3 class="cube__title">Элемент-3</h3>
-        <p class="cube__desc">пример текста для задания</p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x700/181823/FFFFFF?text=Robin+Image" alt="Robin Williams">
+                </div>
+                <div class="hero-content">
+                    <h1>I'm Robin Williams.<br><span class="text-dim">A Product Designer based in Italy.</span></h1>
+                    <p class="hero-desc">I create premium web and mobile designs that help brands stand out in a crowded digital world.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPANIES SECTION -->
+        <section id="experience" class="companies">
+            <div class="container">
+                <h2 class="section-title">Companies I have worked for in the past</h2>
+                <div class="companies-grid">
+                    <div class="company-card">
+                        <span class="company-num">01</span>
+                        <h3>Google</h3>
+                        <p>Interaction Designer</p>
+                    </div>
+                    <div class="company-card">
+                        <span class="company-num">02</span>
+                        <h3>Facebook</h3>
+                        <p>Product Designer</p>
+                    </div>
+                    <div class="company-card">
+                        <span class="company-num">03</span>
+                        <h3>Dribbble</h3>
+                        <p>Graphic Designer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="photography">
+            <div class="container">
+                <h2 class="section-title">Photography</h2>
+                <div class="photo-grid">
+                    <div class="photo-item"><img src="https://via.placeholder.com/400x500" alt="Photo 1"></div>
+ <div class="photo-item"><img src="https://via.placeholder.com/400x500" alt="Photo 2"></div>
+ <section id="contact" class="contact"> 
+    <div class="container">
+        <div class="contact-box">
+            <h2 class="section-title-light">Let's get started</h2>
+            <p>Now that you know a bit about me, let me know if you are interested to work with me.</p
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5"></textarea>
+                <button type="submit" class="btn-primary">LET'S GET STARTED</button>
+            </form>
+
+        </div>
+    </div></section>
