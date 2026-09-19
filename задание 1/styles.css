@@ -1,7 +1,4 @@
-𒉭:
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-
+@importurl('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 :root {
 --black: #000000;
 --dark: #181823;
@@ -17,18 +14,12 @@
 --peach: #fff3e4;
 --violet: #fbe4ff;
 }
-
-
 * {
 box-sizing: border-box;
 }
-
-
 html {
 scroll-behavior: smooth;
 }
-
-
 body {
 margin: 0;
 
@@ -40,37 +31,27 @@ font-family: "DM Sans", Arial, sans-serif;
 font-size: 16px;
 line-height: 1.55;
 }
-
-
 img {
 display: block;
 width: 100%;
 height: 100%;
 object-fit: cover;
 }
-
-
 a {
 color: inherit;
 text-decoration: none;
 }
-
-
 h1,
 h2,
 h3,
 p {
 margin-top: 0;
 }
-
-
 h1,
 h2,
 h3 {
 line-height: 1.08;
 }
-
-
 h1 {
 font-size: clamp(42px, 6vw, 78px);
 
@@ -78,13 +59,9 @@ letter-spacing: -2px;
 
 margin-bottom: 28px;
 }
-
-
 h1 span {
 color: #8e8e95;
 }
-
-
 h2 {
 font-size: clamp(36px, 4.2vw, 55px);
 
@@ -92,19 +69,13 @@ letter-spacing: -1.5px;
 
 margin-bottom: 26px;
 }
-
-
 h3 {
 font-size: 18px;
 margin-bottom: 12px;
 }
-
-
 p {
 color: var(--text-gray);
 }
-
-
 .header {
 height: 102px;
 
@@ -121,16 +92,12 @@ top: 0;
 
 z-index: 100;
 }
-
-
 .logo {
 font-size: 25px;
 font-weight: 700;
 
 letter-spacing: -1px;
 }
-
-
 .navigation {
 height: 100%;
 
@@ -141,13 +108,9 @@ gap: 42px;
 
 font-size: 15px;
 }
-
-
 .navigation a {
 opacity: .9;
 }
-
-
 .contact-button {
 background: var(--purple);
 
@@ -155,8 +118,6 @@ padding: 23px 28px;
 
 opacity: 1 !important;
 }
-
-
 /* HERO */
 
 .hero {
@@ -172,8 +133,6 @@ align-items: center;
 
 padding-right: 52px;
 }
-
-
 .hero-image {
 height: 540px;
 
@@ -181,20 +140,14 @@ max-width: 610px;
 
 overflow: hidden;
 }
-
-
 .hero-content {
 padding: 55px;
 }
-
-
 .hero-content p {
 max-width: 610px;
 
 font-size: 16px;
 }
-
-
 /* EXPERIENCE */
 
 .experience {
@@ -202,8 +155,6 @@ padding: 105px 52px 110px;
 
 background: var(--black);
 }
-
-
 .eyebrow {
 font-size: 12px;
 
@@ -215,13 +166,9 @@ color: var(--gray);
 
 margin-bottom: 18px;
 }
-
-
 .experience h2 {
 margin-bottom: 70px;
 }
-
-
 .experience-grid {
 display: grid;
 
@@ -230,8 +177,6 @@ repeat(3, 1fr);
 
 gap: 70px;
 }
-
-
 .number {
 font-size: 64px;
 
@@ -241,35 +186,23 @@ font-weight: 400;
 
 margin-bottom: 15px;
 }
-
-
 .experience-card h3 {
 font-size: 17px;
 }
-
-
 .experience-card p {
 font-size: 14px;
 
 max-width: 310px;
 }
-
-
 .green {
 color: var(--green);
 }
-
-
 .blue {
 color: #4e8cff;
 }
-
-
 .pink {
 color: var(--pink);
 }
-
-
 /* PHILOSOPHY */
 
 .philosophy {
@@ -279,8 +212,6 @@ grid-template-columns: 1fr 1fr;
 
 min-height: 510px;
 }
-
-
 .philosophy-content {
 background: var(--peach);
 
@@ -294,25 +225,17 @@ flex-direction: column;
 
 justify-content: center;
 }
-
-
 .philosophy-content h2 {
 color: #181823;
 }
-
-
 .philosophy-content p {
 color: #596272;
 
 max-width: 530px;
 }
-
-
 .philosophy-image {
 min-height: 510px;
 }
-
-
 .text-link {
 display: inline-block;
 
@@ -324,15 +247,11 @@ border-bottom: 1px solid #666;
 
 padding-bottom: 4px;
 }
-
-
 .philosophy-content .text-link {
 color: #181823;
 
 margin-top: 65px;
 }
-
-
 /* SKILLS */
 
 .skills {
@@ -346,20 +265,14 @@ gap: 75px;
 
 background: var(--black);
 }
-
-
 .skills-intro h2 {
 font-size: 48px;
 }
-
-
 .skills-intro p {
 max-width: 310px;
 
 font-size: 15px;
 }
-
-
 .skills-grid {
 display: grid;
 
@@ -367,8 +280,6 @@ grid-template-columns: 1fr 1fr;
 
 gap: 55px 70px;
 }
-
-
 .skill-icon {
 font-size: 27px;
 
@@ -376,13 +287,9 @@ color: var(--purple);
 
 margin-bottom: 16px;
 }
-
-
 .skills-grid p {
 font-size: 14px;
 }
-
-
 /* LOGOS */
 
 .logos {
@@ -391,15 +298,12 @@ display: grid;
 grid-template-columns:
 repeat(4, 1fr);
 
-𒉭:
 background: #000;
 
 border-top: 1px solid #222;
 
 border-bottom: 1px solid #222;
 }
-
-
 .logos div {
 height: 85px;
 
@@ -415,8 +319,6 @@ font-weight: 700;
 
 font-size: 20px;
 }
-
-
 /* WORK */
 
 .work {
@@ -424,13 +326,9 @@ padding: 105px 52px 120px;
 
 background: #000;
 }
-
-
 .work > h2 {
 margin-bottom: 60px;
 }
-
-
 .projects {
 display: grid;
 
@@ -438,38 +336,24 @@ grid-template-columns: 1fr 1fr;
 
 gap: 18px;
 }
-
-
 .project {
 background: var(--dark);
 }
-
-
 .project-large {
 grid-row: span 2;
 }
-
-
 .project img {
 height: 340px;
 }
-
-
 .project-large img {
 height: 520px;
 }
-
-
 .project-content {
 padding: 24px 22px 28px;
 }
-
-
 .project-content p {
 font-size: 13px;
 }
-
-
 .outline-button {
 display: block;
 
@@ -485,8 +369,6 @@ font-size: 11px;
 
 font-weight: 700;
 }
-
-
 /* INSTAGRAM */
 
 .instagram {
@@ -496,8 +378,6 @@ grid-template-columns: 1fr 1fr;
 
 min-height: 330px;
 }
-
-
 .instagram-content {
 padding: 70px 52px;
 
@@ -505,13 +385,9 @@ background: var(--violet);
 
 color: #181823;
 }
-
-
 .instagram-content h2 {
 color: #181823;
 }
-
-
 .instagram-content p {
 color: #5d5c6d;
 
@@ -519,20 +395,14 @@ max-width: 480px;
 
 font-size: 14px;
 }
-
-
 .instagram-content .text-link {
 color: #181823;
 
 margin-top: 65px;
 }
-
-
 .instagram-image {
 min-height: 330px;
 }
-
-
 /* DRIBBBLE */
 
 .dribbble {
@@ -540,20 +410,14 @@ padding: 70px 52px 75px;
 
 background: #000;
 }
-
-
 .dribbble p {
 max-width: 600px;
 
 font-size: 14px;
 }
-
-
 .dribbble .text-link {
 margin-top: 20px;
 }
-
-
 /* TESTIMONIALS */
 
 .testimonials {
@@ -567,49 +431,33 @@ grid-template-columns: 1fr 1.25fr;
 
 gap: 90px;
 }
-
-
 .testimonials-title {
 padding-top: 35px;
 }
-
-
 .testimonials-title h2 {
 font-size: 40px;
 }
-
-
 .testimonials-title p {
 font-size: 13px;
 
 max-width: 330px;
 }
-
-
 .testimonial-list {
 display: grid;
 
 gap: 30px;
 }
-
-
 .testimonial {
 border: 1px solid #34343e;
 
 background: #050505;
 }
-
-
 .testimonial > img {
 height: 220px;
 }
-
-
 .testimonial > div {
 padding: 28px;
 }
-
-
 blockquote {
 font-size: 15px;
 
@@ -617,15 +465,11 @@ line-height: 1.55;
 
 margin: 0 0 25px;
 }
-
-
 small {
 color: #777;
 
 font-size: 10px;
 }
-
-
 /* PHOTOGRAPHY */
 
 .photography {
@@ -633,15 +477,11 @@ padding: 0 52px 105px;
 
 background: #000;
 }
-
-
 .photo-description {
 font-size: 14px;
 
 max-width: 520px;
 }
-
-
 .photo-filters {
 display: flex;
 
@@ -649,8 +489,6 @@ gap: 4px;
 
 margin: 22px 0;
 }
-
-
 .photo-filters a {
 background: #1b1b24;
 
@@ -660,13 +498,9 @@ font-size: 10px;
 
 font-weight: 700;
 }
-
-
 .photo-filters a:first-child {
 background: var(--purple);
 }
-
-
 .photo-grid {
 display: grid;
 
@@ -675,13 +509,9 @@ repeat(4, 1fr);
 
 gap: 7px;
 }
-
-
 .photo-grid img {
 height: 230px;
 }
-
-
 /* CONTACT */
 
 .contact {
@@ -695,29 +525,21 @@ grid-template-columns: 1fr 1fr;
 
 gap: 90px;
 }
-
-
 .contact-text p {
 max-width: 430px;
 
 font-size: 14px;
 }
-
-
 .contact-form {
 display: grid;
 
 gap: 18px;
 }
-
-
 .contact-form label {
 font-size: 11px;
 
 color: #aaa;
 }
-
-
 .contact-form input,
 .contact-form textarea {
 display: block;
@@ -740,14 +562,10 @@ font: inherit;
 
 outline: none;
 }
-
-
 .contact-form input:focus,
 .contact-form textarea:focus {
 border-bottom-color: var(--purple);
 }
-
-
 .contact-form button {
 border: 0;
 
@@ -763,8 +581,6 @@ padding: 18px;
 
 cursor: pointer;
 }
-
-
 /* FOOTER */
 
 .footer {
@@ -778,25 +594,18 @@ justify-content: space-between;
 
 min-height: 220px;
 }
-
-
 .footer small {
 display: block;
 
 margin-top: 60px;
 }
-
-
 .social-icons {
 color: #55a7ff;
 
 margin-top: 18px;
 
-𒉭:
 font-size: 12px;
 }
-
-
 .footer-links {
 display: grid;
 
@@ -808,50 +617,36 @@ font-size: 12px;
 
 align-content: start;
 }
-
-
 /* TABLET */
 
-@media (max-width: 850px) {
+@media(max-width: 850px) {
 
 .header {
 height: 76px;
 
 padding: 0 24px;
 }
-
-
 .navigation {
 gap: 18px;
 
 font-size: 12px;
 }
-
-
 .contact-button {
 padding: 17px 16px;
 }
-
-
 .hero {
 grid-template-columns: 1fr;
 
 padding: 0;
 }
-
-
 .hero-image {
 height: 420px;
 
 max-width: none;
 }
-
-
 .hero-content {
 padding: 50px 24px 70px;
 }
-
-
 .experience,
 .work,
 .skills,
@@ -863,152 +658,94 @@ padding-left: 24px;
 
 padding-right: 24px;
 }
-
-
 .experience-grid {
 grid-template-columns: 1fr;
 
 gap: 45px;
 }
-
-
 .philosophy,
 .instagram,
 .contact {
 grid-template-columns: 1fr;
 }
-
-
 .philosophy-content {
 padding: 65px 24px;
 }
-
-
 .philosophy-image {
 min-height: 350px;
 }
-
-
 .skills {
 grid-template-columns: 1fr;
 
 gap: 55px;
 }
-
-
 .skills-grid {
 gap: 40px 25px;
 }
-
-
 .projects {
 grid-template-columns: 1fr;
 }
-
-
 .project-large {
 grid-row: auto;
 }
-
-
 .project img,
 .project-large img {
 height: 330px;
 }
-
-
 .instagram-content {
 padding: 60px 24px;
 }
-
-
 .instagram-image {
 min-height: 300px;
 }
-
-
 .testimonials {
 gap: 50px;
 }
-
-
 .photo-grid {
 grid-template-columns: 1fr 1fr;
 }
-
-
 .photo-grid img {
 height: 190px;
 }
-
-
 .contact {
 gap: 50px;
 }
-
-
 .footer {
 padding: 40px 24px;
-
 flex-direction: column;
-
 gap: 45px;
 }
-
 }
-
-
 /* MOBILE */
-
-@media (max-width: 560px) {
-
+@media(max-width: 560px) {
 .navigation a:not(.contact-button) {
 display: none;
 }
-
-
 h1 {
 letter-spacing: -1px;
 }
-
-
 .hero-image {
 height: 360px;
 }
-
-
 .skills-grid {
 grid-template-columns: 1fr;
 }
-
-
 .logos {
 grid-template-columns: 1fr 1fr;
 }
-
-
 .logos div {
 height: 70px;
 }
-
-
 .photo-grid {
 grid-template-columns: 1fr;
 }
-
-
 .photo-grid img {
 height: 260px;
 }
-
-
 .testimonial > img {
 height: 190px;
 }
-
-
 .footer-links {
 gap: 12px 35px;
 }
-
 }
