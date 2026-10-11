@@ -749,3 +749,36 @@ height: 190px;
 gap: 12px 35px;
 }
 }
+ /* кнопка v\VIEW ALL PROJECTS */
+ .projects-button {
+    display: inline-block;
+    padding: 36px 52px;
+    border: 2px solid #5221e6;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+ }
+
+ .projects-button:hover {
+    color: #5221e6;
+ }
+ .countries {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+
+ .country-button {
+    display: inline-block;
+    padding: 25px 35px;
+    background-color: #191923;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ .country-button:hover {
+    background-color: red;
+    color: blue;
+ }
